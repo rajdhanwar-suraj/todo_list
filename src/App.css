@@ -101,3 +101,16 @@ ol li{
 .todo_style .fa-times:hover{
   background-color: crimson;
 }
+
+@media (max-width:768px) {
+  .center_div{
+    width: 85%;
+  }
+
+  .todo_style .fa-times{
+    margin: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
